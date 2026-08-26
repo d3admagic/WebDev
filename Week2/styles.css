@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(201, 130, 25);
+}
+
+p {
+    color: rgb(238, 235, 235);
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+   text
+}
+
+img{
+    width: 500px; height: 250px; center: center; display: block; margin-left: auto; margin-right: auto;
+}
