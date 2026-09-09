@@ -9,10 +9,56 @@ p {
    text
 }
 
+p{
+    margin: 20px; 
+    padding: 10px;
+    border: 2px solid white; 
+}
+
 img{
     width: 300x; height: 250px; center: center; display: block; margin-left: auto; margin-right: auto;
 }
 
 h1 {
   text-align: center;
+}
+
+.highlight {
+    color: rgb(248, 247, 247);
+    font-weight: bold;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.intro {
+  background-color: black;
+    margin: 20px; 
+    padding: 10px;
+
+}
+
+#main-header {
+    text-align: center;
+    font-size: 32px;
+}
+
+#site-footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+#list {
+  text-align: center;
+  color: rgb(250, 243, 243);
+}
+
+a:hover {
+    color:rgb(248, 5, 5);
+    text-decoration: wavy;
+    text-shadow: 10cm;
+    font-size: medium;
 }
