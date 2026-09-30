@@ -1,40 +1,87 @@
-let score = Number(prompt('Enter your score (0-100'));
-    if (score>89){
-        console.log('You got a A');
-    }
-    else if(score>79){
-        console.log('You got a B');
-    }
+const name = prompt('What is your name, Traveler?');
+const level = Number(prompt('What level are you? 1 - 100 '));
+const party = prompt('Are you traveling alone? Y / N').toUpperCase();
 
-    else if(score>69){
-        console.log('You got a C');
-    }
-    else{
-        console.log('You have a mediore grade');
-    }
+// const let the user put in input
 
+console.log('Player Name: ' + name);
+console.log('Player level: ' + level);
+console.log('Is the player traveling alone?: ' + party);
 
-let age = Number(prompt('Enter your age: '));
-    if(age>=18){
-        console.log('You are an adult.');
-    }
-    else{
-        console.log('you are a minor');
+// console.log is what displays your promts into the console
+
+if (name === '') {
+    console.log('No name was entered');
+} else {
+    console.log('Hello ' +  name + '!')
 }
 
-let movie = Number(prompt('Rate the last movie you have seen: 1 - 10. '));
-    if(movie>= 8){
-        console.log('The Movie was great!');
+if (party === 'Y') {
+    console.log('So, you are a Solo Adventurer.');
+}
+
+if (level >= 50) {
+        console.log('You can join the raid!');
+    } else if (level < 50) {
+        console.log('Not qutie strong enough yet for the raid.');
     }
-    else if(movie>= 6){
-        console.log('The Movie was good!');
-    }
-    else if(movie>= 5){
-        console.log('The Movie was okay!');
-    }
-    else{
-        console.log('The Movie was bad');
-    }
+
+// if statements are there for when a user makes a choice, they can be different paths 
+
+if (level === 100) {
+    console.log('Max Level');
+} else if (level !== 100) {
+    console.log('Keep up the work');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// let score = Number(prompt('Enter your score (0-100'));
+//     if (score>89){
+//         console.log('You got a A');
+//     }
+//     else if(score>79){
+//         console.log('You got a B');
+//     }
+
+//     else if(score>69){
+//         console.log('You got a C');
+//     }
+//     else{
+//         console.log('You have a mediore grade');
+//     }
+
+
+// let age = Number(prompt('Enter your age: '));
+//     if(age>=18){
+//         console.log('You are an adult.');
+//     }
+//     else{
+//         console.log('you are a minor');
+// }
+
+// let movie = Number(prompt('Rate the last movie you have seen: 1 - 10. '));
+//     if(movie>= 8){
+//         console.log('The Movie was great!');
+//     }
+//     else if(movie>= 6){
+//         console.log('The Movie was good!');
+//     }
+//     else if(movie>= 5){
+//         console.log('The Movie was okay!');
+//     }
+//     else{
+//         console.log('The Movie was bad');
+//     }
 
 
 
@@ -119,4 +166,3 @@ let movie = Number(prompt('Rate the last movie you have seen: 1 - 10. '));
 
 // let username = prompt('What is your name? ')
 
-// document.body.innerHTML += "<p>Hello, " + username + "</p>";
