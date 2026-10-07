@@ -1,3 +1,25 @@
+// Week 7 homework
+
+//user input for rows and the symbol
+let rows = prompt("Select a number: ");
+let symbol = prompt("Enter in a symbol:");
+
+rows = Number(rows);
+
+// The while loop makes sure the you put in a valid number greater than 0, you cant have negative rows
+while (rows <= 0) {
+  rows = Number(prompt("Please try again:"));
+}
+
+for (let i = 1; i <= rows; i++) {
+  if (i % 2 === 0) {
+    console.log(symbol.repeat(i) + " (Even)");
+  } else {
+    console.log(symbol.repeat(i) + " (Odd)");
+  }
+}
+
+
 // WHY use loops
 
 // The WHILE LOOP
@@ -33,7 +55,7 @@
 
 // let num=Number(prompt("Pick a number: "));
 //     for(let i = 1; i<=num; i++){
-//         console,log(1);
+//         console.log(1);
 // }
 
 
@@ -65,4 +87,3 @@
 //     triangle+="-";
 //     console.log(triangle)
 // }
-
