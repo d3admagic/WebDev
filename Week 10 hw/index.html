@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Favorite Video Games — DOM Homework</title>
+  <style>
+    
+
+    .game-highlight { 
+      background: #dcee75; 
+      transition: background 200ms; 
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+
+    body {
+      background: #2e6bf0;
+      font-family: roboto, sans-serif;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="gameTitle">Favorite Video Games</h1>
+  </header>
+
+  <main id="gameMain">
+    <p class="intro-text">Welcome! This page have some of my favorite video games!</p>
+
+    <p id="challenge">What are some of your favorite video games?</p>
+
+    <ul id="gameList"></ul>
+
+    <img id="gameImg" src="https://via.placeholder.com/400x200" alt="Placeholder Image" />
+
+    <br /><br />
+
+    <button id="toggleHighlightBtn">Toggle Highlight</button>
+    <button id="swapImgBtn">Swap Image</button>
+  </main>
+
+  <footer id="gameFooter">© 2025</footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
