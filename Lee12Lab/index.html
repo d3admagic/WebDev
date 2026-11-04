@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Data Lab</title> 
+  <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+  <h1>Form Data Lab</h1> 
+
+  <form id="contactname">
+    <label for="name">Name:</label> 
+    <input id="name" type="text" placeholder="Your name" required />
+<br>
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="you@example.com" required />
+<br>
+    <label for="message">Message:</label>
+    
+    <textarea id="message" rows="4" placeholder="Write something..."></textarea>
+<br>
+    <button type="submit">Submit</button> 
+<br>
+    <label for="color">Fav Color:</label>
+      <select id="color">
+      <option value="Purple">Purple</option>
+      <option value="Yellow">Yellow</option>
+      <option value="Teal">Teal</option>
+      </select>
+  
+  </form>
+  <section id="result"></section> 
+
+  <script src="script.js"></script> 
+</body>
+</html>
