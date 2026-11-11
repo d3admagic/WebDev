@@ -1,0 +1,27 @@
+body {
+font-family: Arial, sans-serif;
+background: #719c6f;
+color: rgb(0, 0, 0);
+padding: 1px ;
+}
+
+
+
+
+button {
+    background-color: #f0721e;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+button:hover {
+    background-color: #b85716;
+}
+
+#outputSection {
+    margin-top: 25px;
+    background: #e8f4fc;
+}
